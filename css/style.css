@@ -1,6 +1,7 @@
 body
 {
      font-family: 'League Gothic', arial;
+     font-size:1.125em;
 }
 
 .wrapper
@@ -13,7 +14,6 @@ body
 {
     position: relative;
     background: url("../img/bg.jpg") no-repeat;
-    width: 2400px;  
     height: 843px;
 }
 
@@ -97,9 +97,13 @@ body
 .header_menu
 {
     position: absolute;
-    display: flex;
     margin-left: 719px;
     margin-top: 71px;
+}
+
+.header_menu li
+{
+    display: inline-block;
 }
 
 .header_img_slider img
@@ -117,7 +121,6 @@ body
     content: "";
     display: block;
     background-color: rgba(1, 1, 1, .2);
-    width: 2400px;
     height: 400px;
 }
 
@@ -201,7 +204,6 @@ input[type="radio"]:checked + label
 
 .main_about
 {
-    width: 2400px;
     height: 260px;
     background: linear-gradient(to bottom, #745083, #322539);
     border-top: 1px solid #33253a;
@@ -294,7 +296,6 @@ input[type="radio"]:checked + label
 
 .main_content
 {
-    width: 2400px;
     background-color: #f9f9f9;
     border-top: 1px solid #f9f9f9;
     border-bottom: 1px solid #f9f9f9; 
@@ -461,7 +462,6 @@ input[type="radio"]:checked + label
 
 .main_content_bottom
 {
-    width: 2400px;
     min-height: 121px;
     background-color: #f9f9f9;
     border-top: 1px solid #e6e6e6;
@@ -549,7 +549,6 @@ input[type="radio"]:checked + label
 .footer
 {
     background: url("../img/footer.jpg") no-repeat;
-    width: 2400px;
     height: 114px;
 }
 
@@ -646,48 +645,11 @@ input[type="radio"]:checked + label
    width: 165px;
 }
 
-@media screen and (max-width: 768px) {
-
-   .main_about_company .first:before
-{
-    content: "";
-    display: table;
-    position: absolute;
-    background: url("../img/sprite.png") no-repeat;
-    width: 31px;
-    height: 32px;
-    left: 733px;
-    top: 925px;
-}
-
-.main_about_company .second:before
-{
-    content: "";
-    display: table;
-    position: absolute;
-    background: url("../img/sprite.png") no-repeat;
-    width: 28px;
-    height: 32px;
-    left: 1074px;
-    top: 925px;
-}
-
-.main_about_company .third:before
-{
-    content: "";
-    display: table;
-    position: absolute;
-    background: url("../img/sprite.png") no-repeat;
-    width: 28px;
-    height: 32px;
-    left: 1411px;
-    top: 927px;
-}
+@media screen and (min-width: 960px) {
 
 .wrapper
 {
-    margin: 0 auto;
-    width: 768px;
+    
 }
 
 }
