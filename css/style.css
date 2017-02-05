@@ -1,12 +1,13 @@
 body
 {
-     font-family: 'League Gothic', arial;
+     font-family: 'League Gothic', 'Open Sans', sans-serif;
 }
 
 .wrapper
 {
     margin: 0 auto;
     width: 100%;
+    overflow: hidden;
 }
 
 .header
@@ -250,7 +251,7 @@ input[type="radio"]:checked + label
 
 .main_about_company_center
 {
-    font-family: "OpenSans";
+    font-family: "Open Sans";
     font-size: 1.2em;
     color: #afabb4;
     line-height: 1.5;
@@ -359,7 +360,7 @@ input[type="radio"]:checked + label
 .main_content_second
 {
     font-size: 1.1em;
-    font-family: "OpenSans";
+    font-family: "Open Sans";
     line-height: 1.5;
     text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.392);
     padding: 2% 5% 5% 6%;
@@ -389,7 +390,7 @@ input[type="radio"]:checked + label
 .right_column_item_second
 {
      font-size: 1.2em;
-     font-family: "OpenSans";
+     font-family: "Open Sans";
      color: rgb(69, 69, 69);
      line-height: 1.5;
      text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
@@ -540,7 +541,7 @@ input[type="radio"]:checked + label
 .main_bottom_right_column_second
 {
     font-size: 1.1em;
-    font-family: "OpenSans";
+    font-family: "Open Sans";
     color: rgb(120, 120, 120);
     line-height: 1.5;
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
@@ -604,7 +605,7 @@ input[type="radio"]:checked + label
 .footer_menu_item
 {
     font-size: 0.75em;
-    font-family: "OpenSans";
+    font-family: "Open Sans";
     color: rgb(255, 255, 255);
     line-height: 2.81;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
